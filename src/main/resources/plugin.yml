@@ -1,0 +1,10 @@
+name: CreeperGuard
+version: '${project.version}'
+main: com.ashkiano.creeperguard.CreeperGuard
+api-version: 1.16
+authors: [ AshKiano ]
+description: Prevents creepers from destroying blocks near players with a specific permission.
+permissions:
+  creeper.explode.prevent:
+    description: Allows players to prevent creepers from destroying blocks nearby.
+    default: op
